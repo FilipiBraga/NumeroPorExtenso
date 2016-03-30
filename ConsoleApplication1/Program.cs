@@ -28,8 +28,7 @@ namespace ConsoleApplication1
             reais = valorTotal[0];
             if(valorTotal.Length > 1)
                 centavos = valorTotal[1];
-
-
+            
             Console.Write(" " + EscreverNumero(reais) + ((int.Parse(reais)) > 1 ? " reais" : " real"));
 
             if (!String.IsNullOrEmpty(centavos))
